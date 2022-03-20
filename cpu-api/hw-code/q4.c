@@ -17,8 +17,8 @@ int main(){
         
         char* args[4];
         args[0] = "ls";
-        args[1] = "-a";
-        args[2] = "-l";
+        args[1] = "-ahl";
+        args[2] = "-t";
         args[3] = NULL;
 
         //execl("/bin/ls", "ls", "-a", "-l", NULL);
